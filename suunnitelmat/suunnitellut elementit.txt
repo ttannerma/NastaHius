@@ -2,7 +2,15 @@ Logo
 navbar -vertikaalinen
 hinnasto (oma sivu) kategorioittain dropdown-menuina
 kuvat (oma sivu)
-tuotteet (oma sivu), kuvia tuotteista ja tuotehyllyist�, listaus k�ytett�vist� tuotteista
+tuotteet (oma sivu), kuvia tuotteista ja tuotehyllyistä, listaus käytettävistä tuotteista
 google maps lokaatio
 footer, jossa on yhteystiedot, yrityksen nimi
 taustaa etusivulla (mobiilissa oma sivu?)
+
+
+Värit:
+Eri sävyjen luomiseen: https://superdevresources.com/tools/color-shades#035590
+Pinkki: #C5496B
+Khaki: #CEC0B4
+Vaaleanharmaa: #DAD6D6
+Tummanharmaa: #595959
