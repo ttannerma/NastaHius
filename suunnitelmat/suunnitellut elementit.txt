@@ -1,0 +1,8 @@
+Logo
+navbar -vertikaalinen
+hinnasto (oma sivu) kategorioittain dropdown-menuina
+kuvat (oma sivu)
+tuotteet (oma sivu), kuvia tuotteista ja tuotehyllyist�, listaus k�ytett�vist� tuotteista
+google maps lokaatio
+footer, jossa on yhteystiedot, yrityksen nimi
+taustaa etusivulla (mobiilissa oma sivu?)
