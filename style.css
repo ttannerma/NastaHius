@@ -16,8 +16,12 @@ body {
     margin-bottom: 20px;
 }
 .topnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
     overflow: hidden;
-    background-color: #333;
+    background-color: #DAD6D6;
     width: 60%;
     margin: 0 20% 0 20%;
     padding: 0;
@@ -25,20 +29,22 @@ body {
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px;
     text-decoration: none;
     font-size: 17px;
+    width: 25%;
+    margin: 0;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(179, 179, 179);
     color: black;
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #C5496B;
     color: white;
 }
 #content {
@@ -70,4 +76,11 @@ body {
 }
 .portrait p {
     text-align: center;
+}
+.introduction {
+    border: 1px solid #595959;
+    border-radius: 10px;
+    background-color: #DAD6D6;
+    width: 60%;
+    margin: 0 20% 10px 20%;
 }
