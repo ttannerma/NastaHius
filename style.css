@@ -54,6 +54,7 @@ body {
     margin: 5px 3px 0 3px;
     padding: 0;
     height:60%;
+    border-radius: 5px;
 }
 
 .portraitContainer {
@@ -126,5 +127,50 @@ body {
     .introduction {
         width: 60%;
         margin: 0 20% 10px 20%;
+    }
+
+    #footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: white;
+    }
+
+    #mapid {
+        height: 300px;
+        border-radius: 5px;
+    }
+
+    #footerInfo {
+        background-color: #595959;
+        text-align: center;
+        padding-top: 30px;
+        border-radius: 5px;
+    }
+
+    #footerInfo > strong {
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+
+    #name {
+        border-bottom: 1px solid grey;
+        width: 75%;
+        font-size: 25px;
+    }
+
+    .topnav {
+        display: flex;
+        border-radius: 5px;
+    }
+
+    .topnav > a {
+        border-radius: 5px;
+    }
+
+    #collapse {
+        display: none;
     }
 }
