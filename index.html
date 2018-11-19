@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
     integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
     crossorigin=""/>
@@ -18,13 +22,19 @@
     <div class="logoContainer">
      <a href="#"><img src="img/nastahius_logo.png"  alt="Nastahius parturi kampaamo" name="logo" id="logo"></a>
     </div>
+    <a id="collapse" href="#menu" data-toggle="collapse"><i class="fas fa-bars"></i> Menu</a>
+    <div id="menu" class="collapse">
+        <div><a href="index.html">Etusivu</a></div>
+        <div><a href="#">Yhteystiedot</a></div>
+        <div><a href="#">Hinnasto</a></div>
+        <div><a href="#">Tuotteet</a></div>
+    </div>
     <div class="topnav">
-        <a class="active" href="#home">Etusivu</a>
+        <a class="active" href="index.html">Etusivu</a>
         <a href="#news">Yhteystiedot</a>
         <a href="#contact">Hinnasto</a>
         <a href="#about">Tuotteet</a>
     </div>
-    <br>
     <div id="content">
         <div class="portraitContainer">
             <div class="portrait">
