@@ -96,6 +96,7 @@ body {
     font-size: 20px;
     margin-left: 3px;
     padding:5px;
+    border-radius: 5px;
 }
 
 #menu {
@@ -134,7 +135,6 @@ body {
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
         margin-top: 50px;
-        margin-bottom: 50px;
         color: white;
     }
 
@@ -172,5 +172,16 @@ body {
 
     #collapse {
         display: none;
+    }
+
+    #address {
+        font-size: 25px;
+        text-align:center;
+        width:60%;
+        margin: 5px 20% 30px 20%;
+        background-color: #595959;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
     }
 }
