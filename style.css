@@ -95,13 +95,13 @@ body {
     text-decoration: none;
     font-size: 20px;
     margin-left: 3px;
-    padding:5px;
+    padding: 5px;
     border-radius: 5px;
 }
 
 #menu {
     background-color: #595959;
-    margin: 5px 3px 0 3px;
+    margin: 5px 3px 5px 3px;
 }
 
 #menu > div {
@@ -113,8 +113,29 @@ body {
     font-size: 20px;
 }
 
+#carouselExampleIndicators {
+    max-width: 100%;
+    max-height: 300px;
+    margin: 0 5px 0 5px;
+}
+
+#carouselExampleIndicators img {
+    max-width: 100%;
+    max-height: 300px;
+}
 
 @media screen and (min-width: 800px) {
+
+    #carouselExampleIndicators {
+        max-width: 60%;
+        margin: 10px 20% 0 20%;
+        max-height: 500px;
+    }
+    
+    #carouselExampleIndicators img {
+        max-width: 100%;
+        max-height: 500px;
+    }
     #content, #footer {
         margin-left: 20%;
         margin-right: 20%;
