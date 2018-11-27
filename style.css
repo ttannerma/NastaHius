@@ -49,7 +49,8 @@ body {
     color: white;
 }
 #content {
-    background-color: white;
+    background-color: #595959;
+    color: white;
     display: block;
     margin: 5px 3px 0 3px;
     padding: 0;
@@ -68,7 +69,8 @@ body {
 }
 .portrait img {
     border-radius: 50%;
-    max-width: 50%;
+    max-width: 200px;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -78,7 +80,6 @@ body {
 }
 .introduction {
     border-radius: 10px;
-    background-color: #DAD6D6;
     width: 90%;
     margin: 0 5% 10px 5%;
     text-align: center;
