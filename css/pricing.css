@@ -4,23 +4,33 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    color: white;
-    max-width: 60%;
-    margin: 10px 20% 0 20%;
+    max-width: 100%;
+    margin: 10px 3px 0 3px;
     border-radius: 10px;
+    font-size: 14px;
 }
 .priceTable {
+    background-color: #CEC0B4;
     align-self: center;
     border: 1px white solid;
     margin: 5px;
+    border-radius: 10px;
+    width: 95%;
 }
 .priceTable ul {
     list-style-type: none;
     padding: 3px;
     width: 100%;
-    background-color: gray;
 }
 .priceTable li {
-    margin: 2px;
-    border: 1px solid black;
+    margin: 5px;
+    border-bottom: #595959 solid 1px;
+}
+.priceTable h1 {
+    font-size: 22px;
+    margin: 3px;
+    text-align: center;
+}
+.priceAmount {
+    float: right;
 }
