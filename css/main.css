@@ -155,6 +155,7 @@ body {
 }
 #fb-info p {
     font-size: 20px;
+    margin-bottom:0;
 }
 #footerInfo {
     background-color: #595959;
@@ -206,7 +207,7 @@ body {
     }
     #facebook-bar {
         max-width: 80%;
-        margin: 0 10% 0 10%;
+        margin: 3px 10% 0 10%;
     }
     #footer {
         display: grid;
