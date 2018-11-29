@@ -179,6 +179,15 @@ body {
     display:none;
 }
 
+#contact:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#contact {
+    color: blue;
+}
+
 @media screen and (min-width: 800px) {
 
     #carouselExampleIndicators {
