@@ -188,6 +188,7 @@ body {
     color: blue;
 }
 
+
 @media screen and (min-width: 800px) {
 
     #carouselExampleIndicators {
@@ -209,7 +210,6 @@ body {
         width:80%;
         height:60%;
     }
-
     .introduction {
         width: 60%;
         margin: 0 20% 10px 20%;
