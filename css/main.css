@@ -126,7 +126,7 @@ body {
 #carouselExampleIndicators {
     max-width: 100%;
     max-height: 450px;
-    margin: 10px 5px 0 5px;
+    margin: 3px 5px 0 5px;
 }
 
 #carouselExampleIndicators img {
@@ -303,7 +303,7 @@ body {
     
     #carouselExampleIndicators {
         width: 60%;
-        margin: 10px 20% 0 20%;
+        margin: 5px 20% 0 20%;
     }
 
     #content, #footer {
