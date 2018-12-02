@@ -1,0 +1,10 @@
+CHECK molemmat tekstit veke kuvien alapuolella 
+CHECK teksit lähemmäs esittelykohdasta
+CHECK aukioloajat uusiks
+CHECK leikkuu-> leikkaus
+CHECK elumen redirect
+CHECK tarkista hinnat
+Kestoväri tai raidat + leikkaus <- lisää
+permanentit ja värjäykset saman palkin alle (yhdistä toinen ja kolmas palkki ja otsikoksi värjäys ja permanentti.
+alkutekstien jälkeen lisää "katso yhteystietomme" yläpuolelle "Lämpimästi tervetuloa"
+Meikkauspalveluista maininta palvelut välilehdelle.
