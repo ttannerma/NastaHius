@@ -64,6 +64,9 @@
         width:100%;
         margin:0;
     }
+    .t1 {
+        height: 100%;
+    }
     .t3 {
         height:100%;
         grid-column: 2 / 3;
