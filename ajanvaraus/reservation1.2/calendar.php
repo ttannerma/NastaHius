@@ -12,6 +12,7 @@
 <?php include 'connection1.2.php'; ?>
 <body>
     <div class="container">
+
         <table class="calendar">
             <tr id="days">
                 <td id="monday">Ma</td>
@@ -20,10 +21,14 @@
                 <td id="thursday">To</td>
                 <td id="friday">Pe</td>
             </tr>
+            
             <div class="reservationConfirm">
                 <div class="box">
                     <div class="top">
-                    <div id="dateAndTime"></div>
+                    <div id="dateAndTime">
+                        <p id="date"></p>
+                        <p id="time"></p>
+                    </div>
                     <p id="cancel">X</p>
                     </div>
                     <form>
@@ -44,102 +49,102 @@
             <tr id="times">
                 <td id="mondayTimes">
                     <ul>
-                        <li>9:00</li>
-                        <li>9:30</li>
-                        <li>10:00</li>
-                        <li>10:30</li>
-                        <li>11:00</li>
-                        <li>11:30</li>
-                        <li>12:00</li>
-                        <li>12:30</li>
-                        <li>13:00</li>
-                        <li>13:30</li>
-                        <li>14:00</li>
-                        <li>14:30</li>
-                        <li>15:00</li>
-                        <li>15:30</li>
-                        <li>16:00</li>
+                        <li id="monday">9:00</li>
+                        <li id="monday">9:30</li>
+                        <li id="monday">10:00</li>
+                        <li id="monday">10:30</li>
+                        <li id="monday">11:00</li>
+                        <li id="monday">11:30</li>
+                        <li id="monday">12:00</li>
+                        <li id="monday">12:30</li>
+                        <li id="monday">13:00</li>
+                        <li id="monday">13:30</li>
+                        <li id="monday">14:00</li>
+                        <li id="monday">14:30</li>
+                        <li id="monday">15:00</li>
+                        <li id="monday">15:30</li>
+                        <li id="monday">16:00</li>
                     </ul>
                 </td>
                 <td id="tuesdayTimes">
                     <ul>
-                        <li>9:00</li>
-                        <li>9:30</li>
-                        <li>10:00</li>
-                        <li>10:30</li>
-                        <li>11:00</li>
-                        <li>11:30</li>
-                        <li>12:00</li>
-                        <li>12:30</li>
-                        <li>13:00</li>
-                        <li>13:30</li>
-                        <li>14:00</li>
-                        <li>14:30</li>
-                        <li>15:00</li>
-                        <li>15:30</li>
-                        <li>16:00</li>
+                        <li id="tuesday">9:00</li>
+                        <li id="tuesday">9:30</li>
+                        <li id="tuesday">10:00</li>
+                        <li id="tuesday">10:30</li>
+                        <li id="tuesday">11:00</li>
+                        <li id="tuesday">11:30</li>
+                        <li id="tuesday">12:00</li>
+                        <li id="tuesday">12:30</li>
+                        <li id="tuesday">13:00</li>
+                        <li id="tuesday">13:30</li>
+                        <li id="tuesday">14:00</li>
+                        <li id="tuesday">14:30</li>
+                        <li id="tuesday">15:00</li>
+                        <li id="tuesday">15:30</li>
+                        <li id="tuesday">16:00</li>
                     </ul>
                 </td>
                 <td id="wednesdayTimes">
                     <ul>
-                        <li>9:00</li>
-                        <li>9:30</li>
-                        <li>10:00</li>
-                        <li>10:30</li>
-                        <li>11:00</li>
-                        <li>11:30</li>
-                        <li>12:00</li>
-                        <li>12:30</li>
-                        <li>13:00</li>
-                        <li>13:30</li>
-                        <li>14:00</li>
-                        <li>14:30</li>
-                        <li>15:00</li>
-                        <li>15:30</li>
-                        <li>16:00</li>
+                        <li id="wednesday">9:00</li>
+                        <li id="wednesday">9:30</li>
+                        <li id="wednesday">10:00</li>
+                        <li id="wednesday">10:30</li>
+                        <li id="wednesday">11:00</li>
+                        <li id="wednesday">11:30</li>
+                        <li id="wednesday">12:00</li>
+                        <li id="wednesday">12:30</li>
+                        <li id="wednesday">13:00</li>
+                        <li id="wednesday">13:30</li>
+                        <li id="wednesday">14:00</li>
+                        <li id="wednesday">14:30</li>
+                        <li id="wednesday">15:00</li>
+                        <li id="wednesday">15:30</li>
+                        <li id="wednesday">16:00</li>
                     </ul>
                 </td>
                 <td id="thursdayTimes">
                     <ul>
-                        <li>9:00</li>
-                        <li>9:30</li>
-                        <li>10:00</li>
-                        <li>10:30</li>
-                        <li>11:00</li>
-                        <li>11:30</li>
-                        <li>12:00</li>
-                        <li>12:30</li>
-                        <li>13:00</li>
-                        <li>13:30</li>
-                        <li>14:00</li>
-                        <li>14:30</li>
-                        <li>15:00</li>
-                        <li>15:30</li>
-                        <li>16:00</li>
+                        <li id="thursday">9:00</li>
+                        <li id="thursday">9:30</li>
+                        <li id="thursday">10:00</li>
+                        <li id="thursday">10:30</li>
+                        <li id="thursday">11:00</li>
+                        <li id="thursday">11:30</li>
+                        <li id="thursday">12:00</li>
+                        <li id="thursday">12:30</li>
+                        <li id="thursday">13:00</li>
+                        <li id="thursday">13:30</li>
+                        <li id="thursday">14:00</li>
+                        <li id="thursday">14:30</li>
+                        <li id="thursday">15:00</li>
+                        <li id="thursday">15:30</li>
+                        <li id="thursday">16:00</li>
                     </ul>
                 </td>
                 <td id="fridayTimes">
                     <ul>
-                        <li>9:00</li>
-                        <li>9:30</li>
-                        <li>10:00</li>
-                        <li>10:30</li>
-                        <li>11:00</li>
-                        <li>11:30</li>
-                        <li>12:00</li>
-                        <li>12:30</li>
-                        <li>13:00</li>
-                        <li>13:30</li>
-                        <li>14:00</li>
-                        <li>14:30</li>
-                        <li>15:00</li>
-                        <li>15:30</li>
-                        <li>16:00</li>
+                        <li id="friday">9:00</li>
+                        <li id="friday">9:30</li>
+                        <li id="friday">10:00</li>
+                        <li id="friday">10:30</li>
+                        <li id="friday">11:00</li>
+                        <li id="friday">11:30</li>
+                        <li id="friday">12:00</li>
+                        <li id="friday">12:30</li>
+                        <li id="friday">13:00</li>
+                        <li id="friday">13:30</li>
+                        <li id="friday">14:00</li>
+                        <li id="friday">14:30</li>
+                        <li id="friday">15:00</li>
+                        <li id="friday">15:30</li>
+                        <li id="friday">16:00</li>
                     </ul>
                 </td>
             </tr>
         </table>
-
     </div>
 </body>
 </html>
+

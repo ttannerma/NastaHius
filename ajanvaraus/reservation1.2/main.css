@@ -38,9 +38,12 @@ th, td {
 }
 #dateAndTime {
     float:left;
+    width:100%;
+    text-align: center;
 }
 .top > p {
     float:right;
     color:white;
-    background-color: red;
+    background-color: green;
 }
+
