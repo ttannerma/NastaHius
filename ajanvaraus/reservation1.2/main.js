@@ -1,3 +1,4 @@
+
 function getType (e) {
     let procedure = e
     return procedure
@@ -12,6 +13,7 @@ function checkLength (e) {
     
     return length
 }
+
 
 
 window.addEventListener('load', () => {
@@ -82,6 +84,25 @@ window.addEventListener('load', () => {
         })
     })
 
+function sendMail(email, time, day, length) {
+    var templateParams = {
+        reservation_time: time,
+        reservation_date: day,
+        reservation_length: length + "h",
+        user_email: email,
+        contact_number: 1
+    };
+        emailjs.init("user_SvTjHkxUntnNFDiAHjB3i");
+        emailjs.send('contact_service', 'contact_form', templateParams)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+            }, function(error) {
+                console.log('FAILED...', error);
+            });
+    }
+    
+
+    // Vahvista
     $('button').click(function () {
         let date = $('#date').text()
         let time = $('#time').text()
@@ -90,6 +111,7 @@ window.addEventListener('load', () => {
         let dayId = $('#date').val()
         let email = $('#email').val()
         console.log(dayId)
+        sendMail(email, time, dayId, length)
         if(type !== "" && email !== "") {
             $.ajax({
                 url: 'handler.php',
