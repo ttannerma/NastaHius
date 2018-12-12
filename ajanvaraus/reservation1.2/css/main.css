@@ -1,0 +1,128 @@
+ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+li {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 150px;
+    text-align:center;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.calendar {
+    font-size: 25px;
+    text-align: center;
+}
+
+td {
+    padding: 25px;
+}
+
+/* Vahvistuslomakkeen muotoilu */
+.reservationConfirm {
+    display:none;
+    background-color: orange;
+    height:500px;
+    opacity: 0.95;
+    font-size: 20px;
+    border-radius: 4px;
+    left: 43%;
+    top: 20%;
+    position:absolute;
+    z-index: 5;
+    width: 300px;
+    text-align: center;
+}
+/* Vahvistuslomaakkeessa olevan containerin muotoilu, johon tulee valittu aika ja päivä. */
+#dateAndTime {
+    float:left;
+    width:100%;
+    text-align: center;
+}
+/* Peruutus-ruksin muotoilu */
+.reservationConfirm > p {
+    float:right;
+    background-color: #ff0000;
+    margin: 0;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 4px;
+}
+/* Login-formin muotoilu */
+.admin {
+    text-align: center;
+}
+
+/* Kun kenttää johon sähköposti annetaan klikataan, edellä mainitun kentän ympärille tulee border. */
+.email > input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+/* Kaikkien tekstisyötteiden muotoilu */
+input {
+    border: none;
+    background-color: #f1f1f1;
+    height: 25px;
+}
+
+/* Sähköpostin teksisyötteen muotoilu */
+.email > input {
+    width: 80%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+select {
+    width: 90%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+button {
+    cursor: pointer;
+}
+/* Vahvistuslomakkeen 'vahvista'-nappulan muotoilu */
+#submit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-top:30px;
+    cursor: pointer;
+    width: 90%;
+    border-radius:4px;
+    font-size: 20px;
+}
+
+h3 {
+    letter-spacing: 3px;
+}
+
+#login {
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-decoration: none;
+    margin-top:30px;
+    cursor: pointer;
+    border-radius:4px;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 500px) {
+    .container {
+        display:flex;
+        justify-content: center;
+    }
+}
