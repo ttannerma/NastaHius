@@ -25,6 +25,7 @@
 .priceTable li {
     margin: 5px;
     border-bottom: #595959 solid 1px;
+    overflow: hidden;
 }
 .priceTable h1 {
     font-size: 22px;
@@ -34,15 +35,15 @@
 .priceAmount {
     float: right;
 }
-
 #haakampausInfoLg {
     display:none;
 }
 
+
 @media screen and (min-width: 800px) {
     .priceContainer {
         margin: 10px 10% 0 10%;
-        font-size: 17px;
+        font-size: 15px;
     }
 }
 
@@ -83,11 +84,7 @@
     #haakampausInfoSm {
         display:none;
     }
-
     #haakampausInfoLg {
         display:initial;
     }
 }
-    
-
-

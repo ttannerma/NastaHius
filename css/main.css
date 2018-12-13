@@ -187,7 +187,10 @@ body {
 #contact {
     color: blue;
 }
-
+#telephone {
+    overflow: hidden;
+    white-space: nowrap;
+}
 
 @media screen and (min-width: 800px) {
 
