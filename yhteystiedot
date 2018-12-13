@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
-    <title>VIRHE | Parturi-kampaamo NastaHius</title>
+    <meta name="description" content="Parturi-kampaamo NastaHius - Hiustenleikkaukset ja kampaamopalvelut ammattitaidolla jo vuodesta 2000 koko perheelle. Tervetuloa!">
+    <meta name="keywords" content="parturi, kampaamo, parturi-kampaamo, nastahius, hiustenleikkaus, värjäykset, parturi kuopio, parturi leppävirta, kampaukset">
+    <title>Yhteystiedot | Parturi-kampaamo NastaHius</title>
 </head>
 <body>
 <div class="logoContainer">
-    <a href="index.html"><img src="img/nastahius_logo.png"  alt="Nastahius parturi kampaamo" name="logo" id="logo"></a>
+    <a href="http://www.nastahius.fi/"><img src="img/nastahius_logo.png"  alt="Nastahius parturi kampaamo" name="logo" id="logo"></a>
 </div>
 <a id="collapse" href="#menu" data-toggle="collapse"><i class="fas fa-bars"></i> Menu</a>
 <div id="menu" class="collapse">
-    <div><a href="index.html">Etusivu</a></div>
-    <div><a href="contact.html">Yhteystiedot</a></div>
-    <div><a href="pricing.html">Palvelut</a></div>
+    <div><a href="http://www.nastahius.fi/">Etusivu</a></div>
+    <div><a href="http://www.nastahius.fi/yhteystiedot">Yhteystiedot</a></div>
+    <div><a href="http://www.nastahius.fi/palvelut">Palvelut</a></div>
 </div>
 <div class="topnav">
-    <a href="index.html">Etusivu</a>
-    <a href="contact.html">Yhteystiedot</a>
-    <a href="pricing.html">Palvelut</a>
+    <a href="http://www.nastahius.fi/">Etusivu</a>
+    <a class="active" href="http://www.nastahius.fi/yhteystiedot">Yhteystiedot</a>
+    <a href="http://www.nastahius.fi/palvelut">Palvelut</a>
 </div>
 <div id="content">
-    <p style="color: red">Tapahtui virhe. Sivu jota yritit etsiä ei ole olemassa. Palaa <a href="index.html"> etusivulle painamalla tästä.</a></p>
+    <div class="introduction">
+            <p style="padding: 20px">Valoisa ja viihtyisä liikkeemme sijaitsee Leppävirran keskustassa rauhallisessa ympäristössä. </p>
+            <p>Alla olevasta kartasta näet sijaintimme.</p>
+            <p>Ajanvaraukset soittamalla <span id="telephone">017 5544 333 tai 045 2372 114</span></p>
+    </div>
 </div>
 <div id="footer">
     <div id="footerInfo">
@@ -46,5 +52,6 @@
     <script src="scripts/mapSize.js"></script>
 </div>
 <div id="address"><strong>Kievarinkatu 7, 79100 Leppävirta</strong></div>
+</div>
 </body>
 </html>

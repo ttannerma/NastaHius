@@ -6,9 +6,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
-    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-    crossorigin=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -21,18 +18,18 @@
 </head>
 <body>
 <div class="logoContainer">
-    <a href="index.html"><img src="img/nastahius_logo.png"  alt="Nastahius parturi kampaamo" name="logo" id="logo"></a>
+    <a href="http://www.nastahius.fi/"><img src="img/nastahius_logo.png"  alt="Nastahius parturi kampaamo" name="logo" id="logo"></a>
 </div>
 <a id="collapse" href="#menu" data-toggle="collapse"><i class="fas fa-bars"></i> Menu</a>
 <div id="menu" class="collapse">
-    <div><a href="index.html">Etusivu</a></div>
-    <div><a href="contact.html">Yhteystiedot</a></div>
-    <div><a href="pricing.html">Palvelut</a></div>
+    <div><a href="http://www.nastahius.fi/">Etusivu</a></div>
+    <div><a href="http://www.nastahius.fi/yhteystiedot">Yhteystiedot</a></div>
+    <div><a href="http://www.nastahius.fi/palvelut">Palvelut</a></div>
 </div>
 <div class="topnav">
-    <a href="index.html">Etusivu</a>
-    <a href="contact.html">Yhteystiedot</a>
-    <a class="active" href="pricing.html">Palvelut</a>
+    <a href="http://www.nastahius.fi/">Etusivu</a>
+    <a href="http://www.nastahius.fi/yhteystiedot">Yhteystiedot</a>
+    <a class="active" href="http://www.nastahius.fi/palvelut">Palvelut</a>
 </div>
 <div class="priceContainer">
     <div class="priceTable t1">
