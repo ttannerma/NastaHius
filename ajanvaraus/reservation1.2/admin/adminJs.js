@@ -8,7 +8,7 @@ window.addEventListener('load' , () => {
         let day = document.getElementById('day').value
         let strTime = document.getElementById('startTime').value
         let length = document.getElementById('length').value
-        if(day != "" && strTime != "" && length != "") {
+       if(day != "" && strTime != "" && length != "") {
             $.ajax({
                 url: 'adminDelete.php',
                 type: 'POST',
@@ -23,6 +23,7 @@ window.addEventListener('load' , () => {
             })
         }
     })
+    
     /*
     Admin-sivulla olevaan 'lisää'-nappulaan lisätään eventListener, joka ottaa talteen adminin antamat tiedot tietokantaan lisättävästä rivistä.
     Sitten lähetetään AJAX:lla POST-pyyntö handler.php:lle, joka lisää tietokantaan rivin annetuilla tiedoilla.
