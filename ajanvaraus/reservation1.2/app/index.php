@@ -37,8 +37,8 @@
             <tr id="times">
                 <td id="mondayTimes">
                     <ul>
-                        <li id="Maanantai">9:00</li>
-                        <li id="Maanantai">9:30</li>
+                        <li id="Maanantai">09:00</li>
+                        <li id="Maanantai">09:30</li>
                         <li id="Maanantai">10:00</li>
                         <li id="Maanantai">10:30</li>
                         <li id="Maanantai">11:00</li>
@@ -56,8 +56,8 @@
                 </td>
                 <td id="tuesdayTimes">
                     <ul>
-                        <li id="Tiistai">9:00</li>
-                        <li id="Tiistai">9:30</li>
+                        <li id="Tiistai">09:00</li>
+                        <li id="Tiistai">09:30</li>
                         <li id="Tiistai">10:00</li>
                         <li id="Tiistai">10:30</li>
                         <li id="Tiistai">11:00</li>
@@ -75,8 +75,8 @@
                 </td>
                 <td id="wednesdayTimes">
                     <ul>
-                        <li id="Keskiviikko">9:00</li>
-                        <li id="Keskiviikko">9:30</li>
+                        <li id="Keskiviikko">09:00</li>
+                        <li id="Keskiviikko">09:30</li>
                         <li id="Keskiviikko">10:00</li>
                         <li id="Keskiviikko">10:30</li>
                         <li id="Keskiviikko">11:00</li>
@@ -94,8 +94,8 @@
                 </td>
                 <td id="thursdayTimes">
                     <ul>
-                        <li id="Torstai">9:00</li>
-                        <li id="Torstai">9:30</li>
+                        <li id="Torstai">09:00</li>
+                        <li id="Torstai">09:30</li>
                         <li id="Torstai">10:00</li>
                         <li id="Torstai">10:30</li>
                         <li id="Torstai">11:00</li>
@@ -113,8 +113,8 @@
                 </td>
                 <td id="fridayTimes">
                     <ul>
-                        <li id="Perjantai">9:00</li>
-                        <li id="Perjantai">9:30</li>
+                        <li id="Perjantai">09:00</li>
+                        <li id="Perjantai">09:30</li>
                         <li id="Perjantai">10:00</li>
                         <li id="Perjantai">10:30</li>
                         <li id="Perjantai">11:00</li>

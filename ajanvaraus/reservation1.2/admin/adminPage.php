@@ -36,18 +36,20 @@ if ($_SERVER['HTTP_REFERER'] != 'http://home.tamk.fi/~c7tkoski/reservation1.2/ap
           </script>';
 }
 */
-//Kun sivu ladataan, tulostetaan kaikki varaukset pöytään.
-$sql = "SELECT dayID, strTime, type, length, email FROM reservation";
+//Kun sivu ladataan, tulostetaan kaikki varaukset pöytään päiväjärjestyksessä.
+//$sql = "SELECT dayID, strTime, type, length, email FROM reservation ORDER BY FIELD(dayID,'Maanantai','Tiistai','Keskiviikko','Torstai','Perjantai'), strTime DESC";
+$monday = "Maanantai";
+$sql = "SELECT dayID, strTime, type, length, email FROM reservation ORDER BY FIELD(dayID,'Maanantai','Tiistai','Keskiviikko','Torstai','Perjantai'),strTime ASC";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     $id = 0;
-    /*
+    
     while ($row = $result->fetch_assoc()) {
         echo "<tr id='row $id'>"."<td id='day'>".$row['dayID']."</td>"."<td id='time'>".$row['strTime']."</td>"."<td id='type'>".$row['type']."</td>"."<td id='duration'>".
             $row['length']."</td>"."<td id='email'>".$row['email']."</td>"."<td> <button id='delButtonRow'>Poista varaus</button> </td>"."</tr>\n";
             $id++;
     }
-    */
+    /*
     echo "<tr id='row $id'> \n";
     while ($row = $result->fetch_assoc()) {
         if($row['dayID'] == 'Maanantai') {
@@ -60,9 +62,12 @@ if ($result->num_rows > 0) {
            echo "</tr>\n";
            $id++;
            echo "<tr id = $id>";
-        } 
+        }
     }
+    */
 }
+
+
 ?>
 </table>
 <!--- Container lisäys- ja poisto-formeille -->
