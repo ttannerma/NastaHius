@@ -49,10 +49,7 @@ if ($result->num_rows > 0) {
             $id++;
     }
 }
-
-
-?>
-</table>
+/*
 <!--- Container lisäys- ja poisto-formeille -->
 <div class="deleteAndAdd">
     <!--- Form varauksen poistamiselle -->
@@ -72,6 +69,9 @@ if ($result->num_rows > 0) {
         <input type="text" id="uLength" placeholder="Pituus (1 = 30min / 2 = 1h)">
         <button type="button" id="uAdd">Lisää</button>
 </div>
+*/
+?>
+</table>
 </body>
 </html>
 
