@@ -135,7 +135,7 @@
         <!--- Kalenteri päättyy -->
     </div>
     <!--- Kalenterin sisällään pitävä container päättyy -->
-
+    
     <!--- Normaalisti piilossa oleva ajanvarauksen vahvistuslomake -->
     <div class="reservationConfirm">
             <p id="cancel">X</p> <!--- peruutus-ruksi -->
@@ -149,9 +149,9 @@
                     <form>
                         <select name="procedure" onchange="checkLength(this.value)">
                             <option value="">Valitse palvelu:</option>
-                            <option value="Kampaus">Kampaus</option>
-                            <option value="Värjäys">Värjäys</option>
-                            <option value="Leikkaus">Hiusten leikkaus</option>
+                            <option value="Kampaus">Kampaus (1 tunti)</option>
+                            <option value="Värjäys">Värjäys (1 tunti)</option>
+                            <option value="Leikkaus">Hiusten leikkaus (30 min)</option>
                         </select>
                     </form>
                 <div class="email">
