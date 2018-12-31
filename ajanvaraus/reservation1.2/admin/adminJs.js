@@ -3,7 +3,7 @@ window.addEventListener('load' , () => {
     Admin-sivulla olevaan 'poista varaus'-nappulaan lisätään eventListener, joka ottaa talteen adminin antamat tiedot tietokannasta poistettavasta rivistä.
     Sitten lähetetään AJAX:lla POST-pyyntö adminDelete.php:lle, joka yrittää poistaa annettuja tietoja vastaavan rivin.
     Jos poisto onnistuu alert ilmoittaa että poisto onnistui. Muuten alert ilmoittaa, että poisto ei onnistunut.
-    */
+    
     document.getElementById('delete').addEventListener('click', () => {
         let day = document.getElementById('day').value
         let strTime = document.getElementById('startTime').value
@@ -23,7 +23,8 @@ window.addEventListener('load' , () => {
             })
         }
     })
-    
+    */
+
     /*
     Admin-sivulla olevaan 'lisää'-nappulaan lisätään eventListener, joka ottaa talteen adminin antamat tiedot tietokantaan lisättävästä rivistä.
     Sitten lähetetään AJAX:lla POST-pyyntö handler.php:lle, joka lisää tietokantaan rivin annetuilla tiedoilla.
@@ -46,6 +47,7 @@ window.addEventListener('load' , () => {
                 },
                 success: function() {
                     alert('Lisäys onnistui!')
+                    location.reload()
                 }
             })
         }

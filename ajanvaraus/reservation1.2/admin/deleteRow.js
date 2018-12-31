@@ -15,7 +15,7 @@ window.addEventListener('load' , () => {
             console.log(duration)
             */
            
-           // Checkbox for confirm that user wants to delete a row.
+           // Checkbox for confirmation that user wants to delete a row.
             var del=confirm("Haluatko varmasti poistaa varauksen?")
             if(del==true) {
             // AJAX POST request to adminDelete.php that will delete the row from database. Alerts if it was succesful or not.

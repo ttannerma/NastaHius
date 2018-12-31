@@ -26,9 +26,10 @@ input {
 /* 'poista varaus'- ja 'lisää varaus'-formien containerin muotoilu */
 .deleteAndAdd {
     text-align: center;
-    background-color: #777777;
-    color:white;
+    background-color: darkgray;
+    color:black;
     height: 200px;
+    font-family: arial;
 }
 
 body {

@@ -29,13 +29,13 @@ include '../lib/connection1.2.php';
 Tässä tarkistetaan että onko tälle sivulle ohjattu etusivun kautta vai ei. Jos on, ei tapahdu mitään. Jos ei ole, käyttäjä ohjataan etusivulle.
 Tämä estää admin-sivulle pääsyn kirjoittamalla osoite suoraan osoitepalkkiin. 
 */
-/*
+
 if ($_SERVER['HTTP_REFERER'] != 'http://home.tamk.fi/~c7tkoski/reservation1.2/app/index.php') {
     echo '<script type="text/javascript">
             window.location.replace("../app/index.php")
           </script>';
 }
-*/
+
 //Kun sivu ladataan, tulostetaan kaikki varaukset pöytään päiväjärjestyksessä.
 //$sql = "SELECT dayID, strTime, type, length, email FROM reservation ORDER BY FIELD(dayID,'Maanantai','Tiistai','Keskiviikko','Torstai','Perjantai'), strTime DESC";
 $sql = "SELECT dayID, strTime, type, length, email FROM reservation ORDER BY FIELD(dayID,'Maanantai','Tiistai','Keskiviikko','Torstai','Perjantai'),strTime ASC";
@@ -49,28 +49,19 @@ if ($result->num_rows > 0) {
             $id++;
     }
 }
-/*
+?>
 <!--- Container lisäys- ja poisto-formeille -->
 <div class="deleteAndAdd">
-    <!--- Form varauksen poistamiselle -->
-    <h3>Syötä tähän sen varauksen päivä, aloitusaika ja kesto, minkä haluat poistaa</h3>
-    <form>
-        <input type="text" id="day" placeholder="Päivä">
-        <input type="text" id="startTime" placeholder="Aloitusaika">
-        <input type="text" id="length" placeholder="Pituus (1 = 30min / 2 = 1h)">
-        <button type="button" id="delete">Poista varaus</button>
-    </form>
-    <!--- Form adminin tekemän varauksen lisäämiselle -->
-    <h3>Syötä tähän päivä, aloitusaika, tyyppi(esim. lounastauko), kesto jolloin haluat ettei varauksia voi tehdä kyseiselle ajalle.</h3>
-    <form>
-        <input type="text" id="uDay" placeholder="Päivä">
-        <input type="text" id="uStartTime" placeholder="Aloitusaika">
-        <input type="text" id="uType" placeholder="Tyyppi">
-        <input type="text" id="uLength" placeholder="Pituus (1 = 30min / 2 = 1h)">
-        <button type="button" id="uAdd">Lisää</button>
+<!--- Form adminin tekemän varauksen lisäämiselle -->
+<h3>Syötä tähän päivä, aloitusaika, tyyppi(esim. lounastauko), kesto jolloin haluat ettei varauksia voi tehdä kyseiselle ajalle.</h3>
+<form>
+    <input type="text" id="uDay" placeholder="Päivä">
+    <input type="text" id="uStartTime" placeholder="Aloitusaika">
+    <input type="text" id="uType" placeholder="Tyyppi">
+    <input type="text" id="uLength" placeholder="Pituus (1 = 30min / 2 = 1h)">
+    <button type="button" id="uAdd">Lisää</button>
+</form>
 </div>
-*/
-?>
 </table>
 </body>
 </html>

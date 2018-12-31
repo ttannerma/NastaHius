@@ -136,7 +136,7 @@ window.addEventListener('load', () => {
         let length = checkLength(type)
         let email = $('#email').val()
         if(validateEmail(email)) {
-            //sendMail(email, time, dayId, length)
+            sendMail(email, time, dayId, length)
             if(type !== "") {
                 for(let i = 0; i < times.length; i++) {
                     if(times[i].id == date && times[i].innerHTML == time) {
