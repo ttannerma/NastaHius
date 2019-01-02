@@ -47,7 +47,6 @@ window.addEventListener('load' , () => {
                 },
                 success: function() {
                     alert('Lisäys onnistui!')
-                    location.reload()
                 }
             })
         }

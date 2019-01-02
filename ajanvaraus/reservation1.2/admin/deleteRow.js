@@ -29,7 +29,6 @@ window.addEventListener('load' , () => {
                 },
                 success: function (data) {
                     alert(data)
-                    location.reload()
                 }
             })
         }
