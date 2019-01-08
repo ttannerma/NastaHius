@@ -84,6 +84,7 @@ window.addEventListener('load', () => {
                         if(data[j].length == 1) {
                             times[i].innerHTML = 'varattu'
                             times[i].style.backgroundColor = 'red'
+                            times[i].style.pointerEvents = 'none';
                         }
                     }
                 }
@@ -94,8 +95,11 @@ window.addEventListener('load', () => {
                         if(data[j].length == 2 && times[i+1].innerHTML != 'varattu') {
                             times[i].innerHTML = 'varattu'
                             times[i].style.backgroundColor = 'red'
+                            times[i].style.pointerEvents = 'none';
                             times[i+1].innerHTML = 'varattu'
                             times[i+1].style.backgroundColor = 'red'
+                            times[i+1].style.pointerEvents = 'none';
+
                         }
                     }
                 }
@@ -136,11 +140,11 @@ window.addEventListener('load', () => {
         let length = checkLength(type)
         let email = $('#email').val()
         if(validateEmail(email)) {
-            sendMail(email, time, dayId, length)
+            
             if(type !== "") {
                 for(let i = 0; i < times.length; i++) {
                     if(times[i].id == date && times[i].innerHTML == time) {
-                        if((length == 2 && times[i+1].innerHTML != 'varattu') || length == 1) {
+                        if((length == 2 && times[i+1].innerHTML != 'varattu' && times[i+1].innerHTML != '09:00') || length == 1) { 
                             $.ajax({
                                 url: '../lib/handler.php',
                                 type: 'POST',
@@ -159,20 +163,28 @@ window.addEventListener('load', () => {
                                                 if(data[j].length == 2 && times[i+1].innerHTML != 'varattu') {
                                                     times[i].innerHTML = 'varattu'
                                                     times[i].style.backgroundColor = 'red'
+                                                    times[i].style.pointerEvents = 'none'
                                                     times[i+1].innerHTML = 'varattu'
                                                     times[i+1].style.backgroundColor = 'red'
+                                                    times[i+1].style.pointerEvents = 'none'
                                                 } else if(data[j].length == 1) {
                                                     times[i].innerHTML = 'varattu'
                                                     times[i].style.backgroundColor = 'red'
+                                                    times[i].style.pointerEvents = 'none'
                                                 }
                                             }
                                         }
                                     }
                                     alert("Varaus tehty onnistuneesti!")
+                                    date = $('#date').text()
+                                    time = $('#time').text()
+                                    length = checkLength(type)
+                                    email = $('#email').val()
+                                    sendMail(email, time, date, length)
                                     let box = document.getElementsByClassName('reservationConfirm')
-                                    let date = document.getElementById('date').innerHTML = ""
-                                    let time = document.getElementById('time').innerHTML = ""
-                                    let email = document.getElementById('email').innerHTML = ""
+                                    date = document.getElementById('date').innerHTML = ""
+                                    time = document.getElementById('time').innerHTML = ""
+                                    email = document.getElementById('email').innerHTML = ""
                                     box[0].style.display = 'none'
                                 }
                             })
@@ -187,7 +199,7 @@ window.addEventListener('load', () => {
                 }  
             }
         } else {
-            alert('Sähköposti ei ole hyväksyttävässä muodossa')
+            alert('VIRHE: Sähköposti ei ole hyväksyttävässä muodossa')
         }
     })
     /*
