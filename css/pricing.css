@@ -38,6 +38,10 @@
 #haakampausInfoLg {
     display:none;
 }
+#priceYear {
+    margin-top: 20px;
+    text-align: center;
+}
 
 @media screen and (min-width: 800px) {
     .priceContainer {
