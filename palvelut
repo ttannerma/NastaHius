@@ -8,6 +8,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/pricing.css">
     <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
@@ -32,45 +35,47 @@
     <a class="active" href="http://www.nastahius.fi/palvelut">Palvelut</a>
 </div>
 <div id="priceYear">
-    <h4>Hinnasto 2019</h3>
+    <h4>Hinnasto 2020</h3>
     <h6>Alv 24%</h6>
 </div>
 <div class="priceContainer">
     <div class="priceTable t1">
         <h1>Hiustenleikkaus</h1>
         <ul>
-            <li>Hiustenleikkaus:<span class="priceAmount">28€ - 30€</span></li>
-            <li>Pitkien hiusten tasaus:<span class="priceAmount">26€</span></li>
-            <li>Lasten hiustenleikkaus (alle 12v):<span class="priceAmount">20€ - 25€</span></li>
-            <li>Koneleikkaus: <span class="priceAmount">22€</span></li>
-            <li>Otsahiusten leikkaus: <span class="priceAmount">10€ - 15€</span></li>
+            <li>Hiustenleikkaus:<span class="priceAmount">29€ - 31€</span></li>
+            <li>Pitkien hiusten tasaus:<span class="priceAmount">27€</span></li>
+            <li>Lasten hiustenleikkaus (alle 12v):<span class="priceAmount">21€ - 26€</span></li>
+            <li>Koneleikkaus: <span class="priceAmount">19€ - 22€</span></li>
+            <li>Otsahiusten leikkaus: <span class="priceAmount">11€ - 16€</span></li>
         </ul>
     </div>
     <div class="priceTable t2">
         <h1>Värjäys ja permanentti</h1>
         <ul>
-            <li>Kevytväri + leikkaus + kuivaus<span class="priceAmount">70€ - 80€</span></li>
-            <li>Permanentti + leikkaus + kuivaus:<span class="priceAmount">86€ - 124€</span></li>
-            <li>Permanentti + kevytväri + leikkaus + kuivaus:<span class="priceAmount">107€ - 137€</span></li>
-            <li>Permanentti + <a href="https://fi.goldwell.com/tuotteet/vaerit/kestovaeri/elumen/" style="color: rgb(0, 26, 255); text-decoration: underline">ELUMEN</a> + leikkaus + kuivaus:<span class="priceAmount">130€ - 188€</span></li>
-            <li><a href="https://fi.goldwell.com/tuotteet/vaerit/kestovaeri/elumen/" style="color: rgb(0, 26, 255); text-decoration: underline">ELUMEN</a> värjäys + leikkaus + kuivaus:<span class="priceAmount">90€ - 106€</span></li>
-            <li>Kestoväri tai raidat + leikkaus + kuivaus:<span class="priceAmount">83€ - 99€</span></li>
-            <li>Raidat värjäyksen yhteydessä:<span class="priceAmount">10€ - 14€</span></li>
+            <li>Permanentti + leikkaus + kuivaus:<span class="priceAmount">88€ - 126€</span></li>
+            <li>Permanentti + kevytväri + leikkaus + kuivaus:<span class="priceAmount">109€ - 160€</span></li>
+            <li>Permanentti + <a href="https://fi.goldwell.com/tuotteet/vaerit/kestovaeri/elumen/" style="color: rgb(0, 26, 255); text-decoration: underline">ELUMEN</a> + leikkaus + kuivaus:<span class="priceAmount">132€ - 190€</span></li>
+            <li>Kevytväri + leikkaus + kuivaus<span class="priceAmount">72€ - 82€</span></li>
+            <li>Kestoväri tai raidat + leikkaus + kuivaus:<span class="priceAmount">85€ - 101€</span></li>
+            <li><a href="https://fi.goldwell.com/tuotteet/vaerit/kestovaeri/elumen/" style="color: rgb(0, 26, 255); text-decoration: underline">ELUMEN</a> värjäys + leikkaus + kuivaus:<span class="priceAmount">92€ - 108€</span></li>
+            <li>Värjäykset ja permanentit ilman leikkausta:<span class="priceAmount">-14€</span></li>
+            <li>Raidat värjäyksen yhteydessä:<span class="priceAmount">12€ - 16€</span></li>
+            <li>Monivärjäys: <span class="priceAmount">+5€</span></li>
             <li>Värinpoisto värjäyksen yhteydessä: <span class="priceAmount">alk. 30€</span></li>
-            <li>Värjäykset ja permanentit ilman leikkausta:<span class="priceAmount">-13€ hinnasta</span></li>
-            <li>Monivärjäys: <span class="priceAmount">+5€ hintaan</span></li>
         </ul>
     </div>
     <div class="priceTable t3">
             <h1>Lisäpalvelut</h1>
             <ul>
                 <li>Hiustenpesu + kuivaus:<span class="priceAmount">20€ - 25€</span></li>
-                <li>Päähieronta:<span class="priceAmount">17€</span></li>
-                <li>Hiusten syvähoito:<span class="priceAmount">12€ - 14€</span></li>
-                <li>Parran muotoilu:<span class="priceAmount">26€</span></li>
+                <li>Päähieronta:<span class="priceAmount">18€</span></li>
                 <li>Ripsien ja kulmien värjäys:<span class="priceAmount">26€</span></li>
                 <li>Ripsien TAI kulmien värjäys<span class="priceAmount">19€</span></li>
                 <li>Kulmien muotoilu:<span class="priceAmount">11€</span></li>
+                <li>Hiusten syvähoito:<span class="priceAmount">12€ - 14€</span></li>
+                <li>Parran muotoilu:<span class="priceAmount">26€</span></li>
+                <li>Erikoishoito (sis. pesu + hoito + päähieronta + kuivaus):<span class="priceAmount">40€ - 45€</span></li>
+                <li>Erikoishoito värjäyksen yhteydessä<span class="priceAmount">10€ - 19€</span></li>
             </ul>
     </div>
     <div class="priceTable t4">
@@ -97,8 +102,7 @@
         <strong id="name">Parturi-kampaamo NastaHius</strong>
         <h3>Arkisin: 9 - 16.30</h3>
         <h3>Lauantai: sopimuksen mukaan</h3>
-        <h3>Ajanvaraus: 017 5544 333</h3>
-        <h3>tai 045 2372 114</h3>
+        <h3>Ajanvaraus: 045 2372 114</h3>
         <h3>Kievarinkatu 7, 79100 Leppävirta</h3>
     </div>
     <div id="map">
